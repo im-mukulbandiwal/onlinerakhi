@@ -1,0 +1,73 @@
+.container-fluid{
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-right: 0%;
+  }
+.container-fluid .col-12{
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.container-fluid .col-12 .navbar{
+    border: 2px solid black;;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 2px;
+    font-family:"Segoe UI",Arial,sans-serif;
+    color: brown;
+    background-color:darkred
+}
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+.nav-link{
+    color: seashell;
+}
+.img-responsive{
+    height: 10px;
+    width: 10px;
+}
+.nav-link:hover{
+    color: darkred;
+    background-color:white;
+    border-radius: 8px;
+}
+.navbar-toggler{
+    background:wheat;
+    color: white;
+}
+.collapse{
+    color: black;
+}
+.container-fluid{
+    background-color:brown;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+@media only screen and (max-width: 2100px) {
+    .col-1 {
+       font-size: 14px;
+    }
+@media only screen and (max-width: 576px) {
+.col-1 
+{
+    font-size: 10px;
+}
+}
+@media only screen and (max-width: 2100px) {
+    .carousel-item img{
+       width: 1540px;
+       height: 300px;
+    }
+@media only screen and (max-width: 576px) {
+    .carousel-item img{
+        height: 100px;
+        width: 365px;
+}
+}
